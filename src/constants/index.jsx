@@ -6,9 +6,25 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "May 2024 - Present",
+    year: "January 2025 - Present",
+    role: "Software Enginnering II",
+    company: "Pearson VUE",
+    description: [
+      <>
+        Engineered an in-app exam rescheduling feature within an Electron desktop application using Angular and Java Spring Boot, eliminating the need for candidates to navigate to external portals. Configured and managed infrastructure deployments across multiple environments utilizing Azure Terraform to ensure stable integration of the new feature. Collaborated with cross-functional engineering teams to seamlessly integrate the end-to-end workflow, successfully reducing candidate abandonment rates and significantly lowering customer support ticket volume.      </>,
+      <>
+        Followed the team&apos;s best practices and <strong className="font-black">SDLC</strong> to deliver code on a bi-weekly basis through pro-active code reviews, <strong className="font-black">Spring Boot unit tests</strong>, and <strong className="font-black">Jasmine unit tests</strong>.
+      </>,
+      <>
+        Engineered an automated workspace compliance feature using Spring microservices, integrating Gemini AI to instantly analyze candidate workspace photos for restricted objects. Implemented an event-driven architecture utilizing Ably Pub/Sub to orchestrate real-time messaging across multiple microservices upon AI processing completion. Eliminated candidate wait times and reduced manual greeter workload by automating the verification stage, allowing compliant candidates to bypass the manual queue and instantly begin their exams.
+      </>
+    ],
+    technologies: ["Java", "Spring boot", "Angular", "JavaScript", "MySQL", "Azure Terraform", "Jira", "Microservices", "Electron", "Ably Pubsub"],
+  },
+  {
+    year: "May 2024 - December 2024",
     role: "Software Enginnering Intern",
-    company: "Pearson",
+    company: "Pearson VUE",
     description: [
       <>
         Developed a brand-new service written in <strong className="font-black">Java Spring Boot</strong> that supports internal operations, helping end-users through a frontend user interface in <strong className="font-black">Angular</strong> to improve user experience.
